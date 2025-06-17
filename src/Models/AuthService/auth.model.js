@@ -1,5 +1,5 @@
 import { query } from "../../Config/Database.js"
-import bcrypt from "bcrypt"
+import bcrypt from "bcryptjs"
 import crypto from "crypto"
 
 // Modelo para la tabla Permisos
