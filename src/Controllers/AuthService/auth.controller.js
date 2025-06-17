@@ -1,6 +1,6 @@
 import {permisosModel,rolesModel,rolPermisoModel,usuariosModel,sesionesUsuariosModel,tokensRecuperacionModel,} from "../../Models/AuthService/auth.model.js"
 import jwt from "jsonwebtoken"
-import bcrypt from "bcrypt"
+import bcrypt from "bcryptjs"
 import crypto from "crypto"
 import { sendEmail } from "../../Utils/Email.js"
 import { clientesModel } from "../../Models/CustomerService/customers.model.js"
