@@ -17,7 +17,7 @@
     "test:coverage": "npm test -- --coverage"
   },
   "dependencies": {
-    "bcrypt": "^5.1.1",
+   
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
     "cors": "^2.8.5",
